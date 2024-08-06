@@ -77,4 +77,16 @@ The final circuitry components include the Bluefruit Adafruit LE Shield which wa
 The final CartDog code programmed the CartDog to move continuously according to the button that is pressed until the button is released using the Servo library and the Adafruit_BluefruitLE_nRF51 library.
 ![image](https://github.com/user-attachments/assets/f21d2bff-fa7e-4c85-81ce-bbb8befffc8a)
 
+The CartDog is compatible with the Bluefruit Connect app, which is available on the App Store and Google Android Store. The app can be downloaded on any iOS or Android device and is easy to use.
+
+When connected to the CartDog, the app can be used like a remote control to easily move the CartDog. The motor base of the CartDog has a modular design, allowing any cart or basket to be easily attached using Velcro, while its heavy steel construction allows for a heavy load limit to handle any burden throughout the day.
+
+## Future Improvements
+Future improvements would include automating the CartDog movement, implementing object avoidance, and making the speed of the CartDog adjustable.
+
+To automate the CartDog movement, a magnetometer could be utilized with the GPS sensors, and code would be implemented to use the positional and directional data to allow the cart to follow the phone automatically.  
+
+To implement object avoidance, ultrasonic sensors could be installed and integrated into the code to detect and avoid obstacles.
+
+Finally, to create multiple speed settings, more servo motors could be used to increase the maximum speed, and the program can be modified to allow users to press on other buttons on the app to change the speed settings.
 
